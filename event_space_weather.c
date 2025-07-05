@@ -34,6 +34,7 @@ void fetch_and_display(const char *url, const char *eventType) {
     struct MemoryStruct chunk;
     chunk.memory = malloc(1);
     chunk.size = 0;
+🌌 Event Space Weather – NASA DONKI Tracker (C Language)
 
     if (!curl) return;
 
